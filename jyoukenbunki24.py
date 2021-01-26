@@ -3,3 +3,4 @@ if '田中'in names:
     print('田中さんがいます')
 else:
     print('田中さんはいません')
+    print('残念です')
