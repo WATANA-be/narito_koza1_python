@@ -22,3 +22,9 @@ for part in band_members:#辞書をそのまま渡すとキーのみ回される
     name = band_members[part]
     message='{0}は{1}さん'.format(part,name)
     print(message)
+
+band_members = {'ボーカル':'佐藤','ギター':'鈴木'}
+for key,value in band_members.items():
+    message = '{0}は、{1}さん'.format(key,value)
+    print(message)
+
