@@ -18,3 +18,6 @@ print(one_words)
 
 even_numbers = [x for x in range(1,11)if x%2==0]
 print(even_numbers)
+
+table = [[]for _ in range(1,10)]
+print(table)#_やyは使わなくても良い
