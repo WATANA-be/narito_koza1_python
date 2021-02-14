@@ -26,3 +26,8 @@ numbers = [1,3,4,5,6,3]
 squqare_gen = (num**2 for num in numbers)
 for num in square_gen:
     print(num)
+
+numbers = [1,3,4,5,6,3]
+squqare_gen = (num**2 for num in numbers)
+for num in square_gen:
+    print(num)
