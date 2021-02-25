@@ -1,5 +1,5 @@
 def debug(function):
-    def_debug(*args,**kwargs):
+    def _debug(*args,**kwargs):
     #本来の関数を呼び出し結果を受け取る
         result = function(*args,**kwargs)
         #本来の関数名と引数、結果を出力
