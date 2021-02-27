@@ -1,4 +1,4 @@
-
+members = {}
 class Student:
     def __init__(self,name):
         self.name = name
@@ -10,10 +10,16 @@ class Student:
     def get_score(self,subject_name):
         return self.score.get(subject_name,'その強化はまだ')
 
-narito = Student('narito')
-narito.add_score('math',50)
+members['narito'] = Student('narito')
+members['satou'] = Student('satou')
+
+
 
 saitou = Student('saitou')
 saitou.add_score('math',100)
 print(saitou.score)
+print(members)
+
+members['narito'].add_score('eng',100)
+print(members)
         
